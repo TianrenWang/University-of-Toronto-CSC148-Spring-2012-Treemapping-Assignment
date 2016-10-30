@@ -1,0 +1,22 @@
+CSC148 2012             Zhaorong Xia                   Tianren Wang
+Tree Mapping            c1xiazha                       c2wangti
+-------------------------------------------------------------------------------
+
+Enhancements!
+
+(1) Magnifying Glass.
+    A magnifying glass that lets you magnify a certain radius around the mouse
+    when the mouse's left button is held down. The magnification power can be
+    increased and decreased by holding down "up arrow key" and "down arrow key"
+    respectively. The minimum magnification power is two, while the maximum is
+    ten.
+
+(2) Event functions.
+    We used event functions that checks whether the user is holding down the mouse
+    button, whether he pressed the up or down arrow, and whether the user closed
+    window.
+
+(3) Meter Class.
+    We made an extra class called Meter, the purpose of it is just to keep track
+    of the value of a certain variable, in this program it is used to keep track
+    of the magnification power.
